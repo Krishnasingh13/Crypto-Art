@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #0e0e0e;
+}
+
+#back nav>img {
+    width: 65px;
+    height: 65px;
+}
+
+
+#back nav {
+    width: 100%;
+    height: 10vh;
+    font-family: "gilroy";
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+#back nav a {
+    font-size: 12px;
+    margin: 0rem 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#back nav #links {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#back nav #btn {
+    display: flex;
+    align-items: center;
+}
+
+#back #btn #ellipse {
+    margin: 0rem 2rem;
+    margin-left: 4rem;
+    width: 45px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    transform: rotate(75deg);
+    border-radius: 50%;
+}
+
+#back #btn #ellipse a {
+    font-size: 10px;
+    margin: 0rem;
+    transform: rotateZ(-75deg);
+}
+
+#back #text {
+    margin-top: 2rem;
+    position: relative;
+    z-index: 99;
+}
+
+#back #text h1 {
+    opacity: 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 90px;
+    color: white;
+}
+
+#dot{
+    color: rgb(230, 126, 28);
+    font-size: 100px;
+}
+
+#back #text h4 {
+    opacity: 0;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    font-weight: 300;
+    color: #eee;
+    font-family: "gilroy";
+    text-transform: uppercase;
+}
+
+#back #text h5 {
+    opacity: 0;
+    display: inline;
+    width: 12%;
+    line-height: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "gilroy";
+    color: #eee;
+}
+
+#back #text #one {
+    text-align: right;
+    position: absolute;
+    bottom: -30%;
+    left: 16%;
+}
+
+#back #text #two {
+    position: absolute;
+    right: 13%;
+    bottom: -45%;
+}
+
+#imgs {
+    position: relative;
+    left: 50%;
+    bottom: -20%;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    width: 390px;
+    height: 550px;
+    border-radius: 300px;
+    background-color: #111;
+}
+
+#img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 300px;
+    background-color: #111;
+}
+
+#imgs #img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+    object-fit: cover;
+}
+
+#imgback {
+    position: absolute;
+    right: -15%;
+    top: 15%;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+    background-color: #23d997;
+}
+
+h6 {
+    font-family: "gilroy";
+    position: absolute;
+    top: 55%;
+    font-size: 8px;
+    color: #eee;
+}
+
+
+#left {
+    transform: translate(0%, -50%) rotate(90deg);
+    left: 0%;
+}
+
+#right {
+    transform: translate(0%, -50%) rotate(90deg);
+    right: 0%;
+}
+
+/* #capsule{
+    background-color: #fff;
+    position: relative;
+} */
+
+#svgL {
+    position: absolute;
+    left: 22%;
+    top: 12%;
+    z-index: 2;
+    width: 280px;
+    height: 500px;
+}
+
+#svgS {
+    color: red;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 21%;
+    top: 20%;
+}
+
+
+#svgS {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+#svgL {
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+}
+
+
+
